@@ -4,11 +4,11 @@ import './Main.css';
 import AnimalList from '../AnimalList/AnimalList.js';
 import { animals } from '../data';
 
-export default function Main({ zodiacs }) {
+export default function Main({ animal }) {
   return (
     <main style={{ backgroundImage: `url(${backgroundImg})` }}>
       <AnimalList 
-        animals={animals}
+        animal={animals}
       />
     </main>
   );

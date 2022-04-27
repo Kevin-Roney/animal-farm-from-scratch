@@ -1,0 +1,9 @@
+.animal {
+    width: 100px;
+    border-radius: 5px;
+    display: flex;
+    color: var(--color4);
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
