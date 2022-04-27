@@ -4,7 +4,7 @@ import './Main.css';
 import AnimalList from '../AnimalList/AnimalList.js';
 import { animals } from '../data';
 
-//disable-eslint-next-line
+//eslint-disable-next-line
 export default function Main({ animal }) {
   return (
     <main style={{ backgroundImage: `url(${backgroundImg})` }}>
